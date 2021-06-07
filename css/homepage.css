@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+body {
+    background-color: #1a2238;
+}
+
+li {
+    float: left;
+    padding: 30px;
+    margin-top: 1.5vh;
+    list-style: none;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    color: #1a2238;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-left: 5px solid #1a2238;
+    border-right: 5px solid #1a2238;
+}
+
+a:hover {
+    color: white;
+    background-color: #1a2238;
+    transition: 0.3s;
+}
+
+#uitloggen {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: red;
+    position: absolute;
+    margin-left: -9vw;
+    margin-top: -15.3px;
+    padding: 20px;
+    padding-right: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#uitloggen:hover {
+    color: white;
+    background-color: red;
+    transition: 0.3s;
+}
+
+nav {
+    width: 100vw;
+    position: absolute;
+    height: 10vh;
+    border-bottom: 3px solid crimson;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.achtergrond {
+    width: 100vw;
+    position: absolute;
+    height: 145vh;
+    margin-top: 28vh;
+    background-color: white;
+    border-top: 3px solid crimson;
+}
+
+.container div {
+    background-color: white;
+    width: 75vw;
+    height: 40vh;
+}
+
+#blok1 {
+    margin-top: 2vh;
+    position: absolute;
+}
+
+#blok2 {
+    margin-top: 52vh;
+    position: absolute;
+}
+
+#blok3 {
+    margin-top: 102vh;
+    position: absolute;
+}
+
+.container {
+    border-top: 3px solid crimson;
+    border-bottom: 5vh solid #1a2238;
+    width: 90vw;
+    height: 145vh;
+    background-color: white;
+    margin-top: 28vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+h1 {
+    position: absolute;
+    width: 100vw;
+    text-align: center;
+    margin-top: 16.5vh;
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}

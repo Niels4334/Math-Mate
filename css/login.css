@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap');
+@media only screen and (min-width: 1400px) {
+    body {
+        background-image: url(https://wallpapertag.com/wallpaper/full/3/f/d/129103-white-abstract-background-1920x1080-for-pc.jpg);
+    }
+    #container {
+        width: 700px;
+        height: 1080px;
+        background-color: #1a2238;
+        position: absolute;
+        opacity: 95%;
+    }
+    #title1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10vh;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+    }
+    input {
+        height: 60px;
+        width: 500px;
+        font-size: 25px;
+        border-radius: 30px;
+        text-align: center;
+        margin-left: 98px;
+    }
+    .records {
+        background-color: #1a2238;
+        color: #ffffff;
+        margin-top: 2vh;
+        border: 3px solid #ffffff;
+        font-family: 'Rubik', sans-serif;
+        outline: none;
+    }
+    #login {
+        margin-top: 10vh;
+        border: 3px solid white;
+        color: #1a2238;
+        font-family: 'Rubik', sans-serif;
+        cursor: pointer;
+    }
+    #login:hover {
+        color: #ffffff;
+        background-color: #1a2238;
+        transition: 0.3s;
+        animation: backwards;
+    }
+    #naam {
+        position: absolute;
+        font-size: 150px;
+        margin-left: 943px;
+        margin-top: 20vh;
+        color: #1a2238;
+        font-family: 'Rubik', sans-serif;
+        animation: mymove 3s;
+    }
+    @keyframes mymove {
+        0% {
+            margin-top: -20vh;
+        }
+        100% {
+            margin-top: 20vh;
+        }
+    }
+    .icons {
+        position: absolute;
+    }
+    #ig {
+        width: 90px;
+        margin-top: 16.5vh;
+        width: 90px;
+        margin-left: 90vw;
+    }
+    #tw {
+        width: 80px;
+        margin-top: 17vh;
+        width: 75px;
+        margin-left: 85.5vw;
+    }
+    #fb {
+        margin-top: 16vh;
+        width: 100px;
+        margin-left: 80vw;
+    }
+    h3 {
+        color: red;
+        position: absolute;
+        margin-left: 6vw;
+        margin-top: 14vh;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+    form {
+        margin-top: 17vh;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    #ig,
+    #tw,
+    #fb,
+    #naam {
+        display: none;
+    }
+    body {
+        background-color: #1a2238;
+        display: flex;
+        justify-content: center;
+    }
+    #title1 {
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10vh;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+    }
+    input {
+        height: 60px;
+        width: 300px;
+        font-size: 25px;
+        border-radius: 30px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    form {
+        margin-top: 15vh;
+    }
+    .records {
+        background-color: #1a2238;
+        color: #ffffff;
+        margin-top: 1vh;
+        border: 3px solid #ffffff;
+        font-family: 'Rubik', sans-serif;
+    }
+    #login {
+        margin-top: 10vh;
+        border: 3px solid white;
+        color: #1a2238;
+        font-family: 'Rubik', sans-serif;
+    }
+    #login:hover {
+        color: #ffffff;
+        background-color: #1a2238;
+        transition: 0.3s;
+        animation: backwards;
+    }
+    h3 {
+        color: red;
+        position: absolute;
+        margin-top: 11vh;
+        margin-left: 6vw;
+        font-family: 'Big Shoulders Display', cursive;
+    }
+}

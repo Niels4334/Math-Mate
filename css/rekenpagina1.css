@@ -1,0 +1,204 @@
+* {margin: 0; padding: 0;}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    background-color:#1a2238;
+}
+
+li {
+    float: left;
+    padding: 30px;
+    margin-top: 1.5vh;
+    list-style: none;
+    text-align: center;
+}
+
+.menu {
+    text-decoration: none;
+    color: #1a2238;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-left: 5px solid #1a2238;
+    border-right: 5px solid #1a2238;
+}
+
+a:hover {
+    color: white;
+    background-color: #1a2238;
+    transition: 0.3s;
+}
+
+#uitloggen {
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: red;
+    position: absolute;
+    margin-left: -9vw;
+    margin-top: -15.3px;
+    padding: 20px;
+    padding-right: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#uitloggen:hover {
+    color: white;
+    background-color: red;
+    transition: 0.3s;
+}
+
+nav {
+    width: 100vw;
+    position: absolute;
+    height: 10vh;
+    border-bottom: 3px solid crimson;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.container{
+    width: 100vw;
+    height: 90vh;
+    background-color: #1a2238;
+    margin-top: 20vh;
+    position: absolute;
+    margin-left: 10vw;
+}
+
+footer{
+    height: 15vh;
+    background-color: #ffffff;
+    margin-top: 20vh;
+    border-top: 3px solid crimson;
+    margin-left: -10vw;
+}
+
+h1 {
+    text-align: center;
+    font-size: 65px;
+    margin-right: 17vw;
+    margin-bottom: 20vh;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    
+}
+
+#mySelect{
+    height: 5vh;
+    text-align: center;
+    font-size: 25px;
+    color: #1a2238;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 7vh;
+    width: 40vw;
+    margin-left: 30vw;
+    cursor: pointer;
+}
+
+#opGetal1{
+    height: 5vh;
+    text-align: center;
+    font-size: 25px;
+    color: #1a2238;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 17vh;
+    position: absolute;
+    margin-left: -71vh;
+    border: 1px solid crimson;
+    width: 17vw;
+    outline: none;
+}
+
+#opGetal2{
+    height: 5vh;
+    text-align: center;
+    font-size: 25px;
+    color: #1a2238;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 17vh;
+    position: absolute;
+    margin-left: -30.5vh;
+    border: 1px solid crimson;
+    width: 17vw;
+    outline: none;
+}
+
+#SomAntwoorden{
+    width: 40vw;
+    height: 100vh;
+    background-color: #FFF8DC;
+    margin-left: 20vw;
+    margin-top: -15vh;
+    color: #1a2238;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#bereken{
+    height: 5vh;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 27vh;
+    position: absolute;
+    margin-left: -71vh;
+    width: 17vw;
+    outline: none;
+    background-color: #32de84;
+    cursor: pointer;
+}
+
+#reset{
+    height: 5vh;
+    text-align: center;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 27vh;
+    position: absolute;
+    margin-left: -30.5vh;
+    width: 17vw;
+    outline: none;
+    background-color: crimson;
+    cursor: pointer;
+}
+
+form{
+    height: 50vh;
+    margin-left: -10vw;
+}
+
+#helpQm1, #helpQm2, #helpQm3, #helpQm4{
+    width: 50px;
+    position: absolute;
+    margin-left: -21.3vw;
+    margin-top: 22vh;
+    cursor: pointer;
+}
+
+.test{
+    position: absolute;
+    width: 30vw;
+    height: 60vh;
+    background-color: red;
+    margin-left: 65vw;
+    margin-top: -40vh;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
