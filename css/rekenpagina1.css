@@ -82,10 +82,12 @@ footer{
 h1 {
     text-align: center;
     font-size: 65px;
-    margin-right: 17vw;
-    margin-bottom: 20vh;
+    margin-right: 21vw;
+    margin-bottom: 10vh;
+    margin-top: 5;
     font-family: 'Rubik', sans-serif;
     color: #ffffff;
+    
     
 }
 
