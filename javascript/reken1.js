@@ -61,6 +61,16 @@ function displayHide3() {
 }
 
 
+function mousOver() {
+    document.getElementById("uitleg").style.visibility = "visible";
+}
+
+function mousOut() {
+    document.getElementById("uitleg").style.visibility = "hidden";
+}
+
+
+
 
 function Tafel() {
     GetalInvoer = document.getElementById("opGetal1").value;

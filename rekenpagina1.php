@@ -50,7 +50,7 @@ if ($_SESSION['ingelogd'] != true) {
                 <option value="Breukenreeks" onclick="displayHide2()">Breukenreeks</option>
                 <option value="Kwadratenreeks" onclick="displayHide3()">Kwadratenreeks</option>
             </select>
-            <img class="kwadraat" id="helpQm4" src="foto's/vraagteken.png" alt="vraagteken">
+            <img class="kwadraat" id="helpQm4" onmouseover = "mousOver()" onmouseout = "mousOut()" src="foto's/vraagteken.png" alt="vraagteken">
             <img class="macht" id="helpQm2" src="foto's/vraagteken.png" alt="vraagteken">
             <img class="breuk" id="helpQm3" src="foto's/vraagteken.png" alt="vraagteken">
             <img class="tafel" id="helpQm1" src="foto's/vraagteken.png" alt="vraagteken">
@@ -60,9 +60,11 @@ if ($_SESSION['ingelogd'] != true) {
             <button id="bereken" type="button" onclick="calcAns()">Calculate</button>
             <button id="reset" type="reset" onclick="displayShow()">Reset</button>
         </form>
-        <div class="test">
-            <p>fakka broerneef</p>
+        
+        <div id = "uitleg">
+        
         </div>
+
         <div id="SomAntwoorden"></div>
         <footer></footer>
         

@@ -87,8 +87,6 @@ h1 {
     margin-top: 5;
     font-family: 'Rubik', sans-serif;
     color: #ffffff;
-    
-    
 }
 
 #mySelect{
@@ -188,16 +186,12 @@ form{
     cursor: pointer;
 }
 
-.test{
-    position: absolute;
-    width: 30vw;
-    height: 60vh;
+#uitleg {
+    width: 100px;
+    height: 100px;
     background-color: red;
-    margin-left: 65vw;
-    margin-top: -40vh;
     visibility: hidden;
 }
-
 
 
 
