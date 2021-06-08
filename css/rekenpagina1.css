@@ -62,6 +62,7 @@ nav {
     justify-content: center;
     background-color: white;
 }
+
 .container{
     width: 100vw;
     height: 90vh;
@@ -188,7 +189,6 @@ form{
 
 #uitleg {
     height: 10vh;
-    background-color: red;
     position: absolute;
     margin-left: 70vw;
     margin-top: -30vh;
@@ -197,7 +197,6 @@ form{
 
 #uitleg2 {
     height: 10vh;
-    background-color: red;
     position: absolute;
     margin-left: 70vw;
     margin-top: -30vh;
@@ -206,7 +205,6 @@ form{
 
 #uitleg3 {
     height: 10vh;
-    background-color: red;
     position: absolute;
     margin-left: 70vw;
     margin-top: -30vh;
