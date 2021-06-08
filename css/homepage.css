@@ -4,11 +4,12 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 body {
     background-color: #1a2238;
 }
 
-li {
+nav li {
     float: left;
     padding: 30px;
     margin-top: 1.5vh;
@@ -116,4 +117,23 @@ h1 {
     font-size: 50px;
     font-family: 'Rubik', sans-serif;
     color: white;
+}
+
+.info-text {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+.info-titel {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+#functies-calc {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+
+#blok1{
+    background-color: #1a2238
 }

@@ -46,9 +46,26 @@ if ($_SESSION['ingelogd'] != true) {
   <!-- hier komen de foto's en de uitleg van de calculators -->
   <main class="achtergrond"></main>
   <section class="container">
-    <div id="blok1"></div>
-    <div id="blok2"></div>
-    <div id="blok3"></div>
+    <div id="blok1">
+    <h3 class = "info-titel">Eenvoudige berekeningen</h3>
+    <p class = "info-text">
+    De eenvoudige rekenpagina is voor de simpelste berekeningen bedoelt.<br>
+    Deze calculator laat de uitwerking van de berekeningen zien samen <br>
+    met de uitkomst. de calculator kan de volgende berekeningen berekenen.
+    </p><br><br>
+    <ul id = "functies-calc">
+    <li>Tafels berekenen</li>
+    <li>Machtreeksen berekenen</li>
+    <li>Breukenreeksen berekenen</li>
+    <li>Kwadratenreeksen berekenen</li>
+    </ul>
+    </div>
+    <div id="blok2">
+    
+    </div>
+    <div id="blok3">
+    
+    </div>
   </section>
 
 </body>
