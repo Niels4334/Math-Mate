@@ -51,19 +51,20 @@ if ($_SESSION['ingelogd'] != true) {
                 <option value="Kwadratenreeks" onclick="displayHide3()">Kwadratenreeks</option>
             </select>
             <img class="kwadraat" id="helpQm4" onmouseover = "mousOver()" onmouseout = "mousOut()" src="foto's/vraagteken.png" alt="vraagteken">
-            <img class="macht" id="helpQm2" src="foto's/vraagteken.png" alt="vraagteken">
-            <img class="breuk" id="helpQm3" src="foto's/vraagteken.png" alt="vraagteken">
-            <img class="tafel" id="helpQm1" src="foto's/vraagteken.png" alt="vraagteken">
+            <img class="macht" id="helpQm2" onmouseover = "mousOver2()" onmouseout = "mousOut2()" src="foto's/vraagteken.png" alt="vraagteken">
+            <img class="breuk" id="helpQm3" onmouseover = "mousOver3()" onmouseout = "mousOut3()" src="foto's/vraagteken.png" alt="vraagteken">
+            <img class="tafel" id="helpQm1" onmouseover = "mousOver4()" onmouseout = "mousOut4()" src="foto's/vraagteken.png" alt="vraagteken">
 
             <input id="opGetal1" type="text" name="getal1" placeholder="Vul in">
             <input id="opGetal2" type="text" name="getal2" placeholder="Vul in">
             <button id="bereken" type="button" onclick="calcAns()">Calculate</button>
             <button id="reset" type="reset" onclick="displayShow()">Reset</button>
         </form>
-        
-        <div id = "uitleg">
-        
-        </div>
+         
+        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg">
+        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg2">
+        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg3">
+        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg4">
 
         <div id="SomAntwoorden"></div>
         <footer></footer>

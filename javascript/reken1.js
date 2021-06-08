@@ -69,7 +69,29 @@ function mousOut() {
     document.getElementById("uitleg").style.visibility = "hidden";
 }
 
+function mousOver2() {
+    document.getElementById("uitleg").style.visibility = "visible";
+}
 
+function mousOut2() {
+    document.getElementById("uitleg").style.visibility = "hidden";
+}
+
+function mousOver3() {
+    document.getElementById("uitleg").style.visibility = "visible";
+}
+
+function mousOut3() {
+    document.getElementById("uitleg").style.visibility = "hidden";
+}
+
+function mousOver4() {
+    document.getElementById("uitleg").style.visibility = "visible";
+}
+
+function mousOut4() {
+    document.getElementById("uitleg").style.visibility = "hidden";
+}
 
 
 function Tafel() {

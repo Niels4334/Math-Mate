@@ -187,9 +187,29 @@ form{
 }
 
 #uitleg {
-    width: 100px;
-    height: 100px;
+    height: 10vh;
     background-color: red;
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: -30vh;
+    visibility: hidden;
+}
+
+#uitleg2 {
+    height: 10vh;
+    background-color: red;
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: -30vh;
+    visibility: hidden;
+}
+
+#uitleg3 {
+    height: 10vh;
+    background-color: red;
+    position: absolute;
+    margin-left: 70vw;
+    margin-top: -30vh;
     visibility: hidden;
 }
 
