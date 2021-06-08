@@ -64,7 +64,6 @@ if ($_SESSION['ingelogd'] != true) {
         <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg">
         <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg2">
         <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg3">
-        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg4">
 
         <div id="SomAntwoorden"></div>
         <footer></footer>
