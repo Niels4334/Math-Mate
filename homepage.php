@@ -59,6 +59,7 @@ if ($_SESSION['ingelogd'] != true) {
     <li>Breukenreeksen berekenen</li>
     <li>Kwadratenreeksen berekenen</li>
     </ul>
+    <img src="foto's/mascotte" alt="plaatje rekenen">
     </div>
     <div id="blok2">
     
