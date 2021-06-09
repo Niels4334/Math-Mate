@@ -51,7 +51,7 @@ if ($_SESSION['ingelogd'] != true) {
     <p class = "info-text">
     De eenvoudige rekenpagina is voor de simpelste berekeningen bedoelt.<br>
     Deze calculator laat de uitwerking van de berekeningen zien samen <br>
-    met de uitkomst. de calculator kan de volgende berekeningen berekenen.
+    met de uitkomst. de calculator kan de volgende berekeningen berekenen:
     </p><br><br>
     <ul id = "functies-calc">
     <li>Tafels berekenen</li>
@@ -59,7 +59,7 @@ if ($_SESSION['ingelogd'] != true) {
     <li>Breukenreeksen berekenen</li>
     <li>Kwadratenreeksen berekenen</li>
     </ul>
-    <img src="foto's/mascotte" alt="plaatje rekenen">
+    <img id="plaatje-blok1" src="foto's/afb1.jpg" alt="plaatje rekenen">
     </div>
     <div id="blok2">
     
