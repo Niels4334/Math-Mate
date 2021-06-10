@@ -32,7 +32,7 @@ if ($_SESSION['ingelogd'] != true) {
             <li><a id="uitloggen" href="uitloggen.php">Uitloggen</a></li>
             <li><a class="menu" href="homepage.php">Homepage</a></li>
             <li><a class="menu" href="#">Over ons</a></li>
-            <li><a class="menu" href="rekenpagina1.php">Eenvoudige rekenpagina</a></li>
+            <li><a id="status" class="menu" href="rekenpagina1.php">Eenvoudige rekenpagina</a></li>
             <li><a class="menu" href="#">Reeksen</a></li>
             <li><a class="menu" href="#">Complexe rekenpagina</a></li>
             <li><a class="menu" href="#">Rad van foortuin</a></li>
@@ -61,9 +61,10 @@ if ($_SESSION['ingelogd'] != true) {
             <button id="reset" type="reset" onclick="displayShow()">Reset</button>
         </form>
          
-        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg">
-        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg2">
-        <img src="foto's/mascotte.png" alt="uitleg" id = "uitleg3">
+        <img src="foto's/logo-kwadratenreeks.png" alt="uitleg" id = "uitleg">
+        <img src="foto's/logo-machtreeks.png" alt="uitleg" id = "uitleg1">
+        <img src="foto's/logo-breukenreeks.png" alt="uitleg" id = "uitleg2">
+        <img src="foto's/logo-tafels.png" alt="uitleg" id = "uitleg3">
 
         <div id="SomAntwoorden"></div>
         <footer></footer>

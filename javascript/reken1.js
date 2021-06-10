@@ -70,27 +70,27 @@ function mousOut() {
 }
 
 function mousOver2() {
-    document.getElementById("uitleg").style.visibility = "visible";
+    document.getElementById("uitleg1").style.visibility = "visible";
 }
 
 function mousOut2() {
-    document.getElementById("uitleg").style.visibility = "hidden";
+    document.getElementById("uitleg1").style.visibility = "hidden";
 }
 
 function mousOver3() {
-    document.getElementById("uitleg").style.visibility = "visible";
+    document.getElementById("uitleg2").style.visibility = "visible";
 }
 
 function mousOut3() {
-    document.getElementById("uitleg").style.visibility = "hidden";
+    document.getElementById("uitleg2").style.visibility = "hidden";
 }
 
 function mousOver4() {
-    document.getElementById("uitleg").style.visibility = "visible";
+    document.getElementById("uitleg3").style.visibility = "visible";
 }
 
 function mousOut4() {
-    document.getElementById("uitleg").style.visibility = "hidden";
+    document.getElementById("uitleg3").style.visibility = "hidden";
 }
 
 

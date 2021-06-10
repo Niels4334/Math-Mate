@@ -187,28 +187,41 @@ form{
     cursor: pointer;
 }
 
-#uitleg {
-    height: 10vh;
+#uitleg1 {
+    height: 60vh;
     position: absolute;
-    margin-left: 70vw;
-    margin-top: -30vh;
+    margin-left: 57vw;
+    margin-top: -55vh;
+    visibility: hidden;
+}
+
+#uitleg {
+    height: 60vh;
+    position: absolute;
+    margin-left: 57vw;
+    margin-top: -55vh;
     visibility: hidden;
 }
 
 #uitleg2 {
-    height: 10vh;
+    height: 60vh;
     position: absolute;
-    margin-left: 70vw;
-    margin-top: -30vh;
+    margin-left: 57vw;
+    margin-top: -55vh;
     visibility: hidden;
 }
 
 #uitleg3 {
-    height: 10vh;
+    height: 60vh;
     position: absolute;
-    margin-left: 70vw;
-    margin-top: -30vh;
+    margin-left: 57vw;
+    margin-top: -55vh;
     visibility: hidden;
+}
+
+#status {
+    border-left: 5px solid crimson;
+    border-right: 5px solid crimson;
 }
 
 
