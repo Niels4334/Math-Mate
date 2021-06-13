@@ -10,7 +10,7 @@ function calcAns() {
     var keus = document.getElementById("mySelect").value;
     switch (keus) {
         case "Fibonacci":
-            document.getElementById("SomAntwoorden").innerHTML = Fibonacci();
+            Fibonacci();
             break;
         case "Priemgetallen":
             document.getElementById("SomAntwoorden").innerHTML = Priemgetallen();
@@ -54,10 +54,19 @@ function mousOut2() {
 function Fibonacci() {
     GetalInvoer = document.getElementById("opGetal1").value;
 
-    for (var i = 0; i <= 15; i++) {
-        resultaat += GetalInvoer + "<sup>" + i + "</sup> = " + (Math.pow(GetalInvoer, i)) + "<section />";
+    var a = 0;
+    var b = 1;
+    document.getElementById("SomAntwoorden").innerHTML = "0";
+    var ant = a + b;
+
+    while (ant < GetalInvoer) {
+    
+        document.getElementById("SomAntwoorden").innerHTML += "</br>" + ant;
+        ant = a + b;
+        a = b;
+        b = ant;
     }
-    return resultaat;
+    return ant;
 }
 
 function Priemgetallen() {
