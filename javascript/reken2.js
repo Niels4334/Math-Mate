@@ -72,8 +72,25 @@ function Fibonacci() {
 function Priemgetallen() {
     GetalInvoer = document.getElementById("opGetal1").value;
 
-    for (var i = 0; i <= 15; i++) {
-        resultaat += GetalInvoer + "<sup>" + i + "</sup> = " + (Math.pow(GetalInvoer, i)) + "<section />";
+    for (i = 0; i < GetalInvoer; i++) {
+         Array++;
     }
-    return resultaat;
+
+    var Array = ["0"];
+    
+     
+
+    for(var i = 0; i <= Array.length; i++) {
+
+    if (GetalInvoer % 2 === 0) {
+        GetalInvoer = true;
+    }
+    if (GetalInvoer % 2 === 1) {
+        GetalInvoer = false;
+        GetalInvoer -1;
+    }
+    while(i <= Array.length) {
+        return GetalInvoer;
+    } 
+}
 }
