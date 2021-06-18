@@ -98,7 +98,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 7vh;
     width: 40vw;
-    margin-left: 30vw;
+    margin-left: 31vw;
     cursor: pointer;
 }
 
@@ -110,7 +110,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 17vh;
     position: absolute;
-    margin-left: -71vh;
+    margin-left: -74vh;
     border: 1px solid crimson;
     width: 17vw;
     outline: none;
@@ -124,7 +124,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 17vh;
     position: absolute;
-    margin-left: -30.5vh;
+    margin-left: -31.5vh;
     border: 1px solid crimson;
     width: 17vw;
     outline: none;
@@ -152,7 +152,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 27vh;
     position: absolute;
-    margin-left: -71vh;
+    margin-left: -74vh;
     width: 17vw;
     outline: none;
     background-color: #32de84;
@@ -167,7 +167,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 27vh;
     position: absolute;
-    margin-left: -30.5vh;
+    margin-left: -31.5vh;
     width: 17vw;
     outline: none;
     background-color: crimson;
@@ -176,13 +176,14 @@ h1 {
 
 form{
     height: 50vh;
-    margin-left: -10vw;
+    margin-left: -11vw;
+    
 }
 
 #helpQm1, #helpQm2, #helpQm3, #helpQm4{
     width: 50px;
     position: absolute;
-    margin-left: -21.3vw;
+    margin-left: -21.1vw;
     margin-top: 22vh;
     cursor: pointer;
 }

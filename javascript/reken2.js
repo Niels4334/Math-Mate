@@ -13,7 +13,7 @@ function calcAns() {
             Fibonacci();
             break;
         case "Priemgetallen":
-            document.getElementById("SomAntwoorden").innerHTML = Priemgetallen();
+             Priemgetallen();
             break;
         default:                                                                                                                                                                                                                                                         
             break;
@@ -69,7 +69,27 @@ function Fibonacci() {
     return ant;
 }
 
-function Priemgetallen() {
+ function Priemgetallen (GetalInvoer) {
     GetalInvoer = document.getElementById("opGetal1").value;
 
-}
+    for (var i = 2; i <= GetalInvoer; i++) {
+        var numb = true;
+        for(d = 2; d < i; d++) {
+            if(i % d == 0){
+                numb = false;
+            } 
+        }
+        if(numb == true) {
+            document.getElementById("SomAntwoorden").innerHTML += i + "-";
+            console.log(d);
+            console.log(i);
+            console.log(numb);
+        }
+    }
+    
+ }
+ 
+    
+        
+   
+

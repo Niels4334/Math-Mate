@@ -136,7 +136,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 29vh;
     position: absolute;
-    margin-left: -71vh;
+    margin-left: -74vh;
     width: 17vw;
     outline: none;
     background-color: #32de84;
@@ -151,7 +151,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 29vh;
     position: absolute;
-    margin-left: -30.5vh;
+    margin-left: -32.5vh;
     width: 17vw;
     outline: none;
     background-color: crimson;
@@ -166,7 +166,7 @@ form{
 #helpQm1, #helpQm2, #helpQm3, #helpQm4{
     width: 50px;
     position: absolute;
-    margin-left: -21.1vw;
+    margin-left: -21.5vw;
     margin-top: 25vh;
     cursor: pointer;
 }
