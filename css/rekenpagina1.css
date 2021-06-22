@@ -110,7 +110,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 17vh;
     position: absolute;
-    margin-left: -74vh;
+    margin-left: -80vh;
     border: 1px solid crimson;
     width: 17vw;
     outline: none;
@@ -124,7 +124,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 17vh;
     position: absolute;
-    margin-left: -31.5vh;
+    margin-left: -34.5vh;
     border: 1px solid crimson;
     width: 17vw;
     outline: none;
@@ -152,7 +152,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 27vh;
     position: absolute;
-    margin-left: -74vh;
+    margin-left: -80vh;
     width: 17vw;
     outline: none;
     background-color: #32de84;
@@ -167,7 +167,7 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin-top: 27vh;
     position: absolute;
-    margin-left: -31.5vh;
+    margin-left: -34.5vh;
     width: 17vw;
     outline: none;
     background-color: crimson;
@@ -183,7 +183,7 @@ form{
 #helpQm1, #helpQm2, #helpQm3, #helpQm4{
     width: 50px;
     position: absolute;
-    margin-left: -21.1vw;
+    margin-left: -21.3vw;
     margin-top: 22vh;
     cursor: pointer;
 }

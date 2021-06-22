@@ -58,9 +58,12 @@ function mousOut2() {
 
 
 function Talstelsels() {
-    GetalInvoer = document.getElementById("opGetal1").value;
-    GetalTot = document.getElementById("opGetal2").value;
+    GetalVanaf = document.getElementById("opGetal1").value;
+    GetalInvoer = document.getElementById("opGetal2").value;
+    naarToe = document.getElementById("opGetal3").value; 
 
+
+    
     
 }
 

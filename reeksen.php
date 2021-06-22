@@ -28,7 +28,7 @@ if ($_SESSION['ingelogd'] != true) {
         </ul>
         <li><a id="uitloggen" href="uitloggen.php">Uitloggen</a></li>
         <li><a class="menu" href="homepage.php">Homepage</a></li>
-        <li><a class="menu" href="#">Over ons</a></li>
+        <li><a class="menu" href="Slidesshow Math mate/Presentation slideshow.html">Over ons</a></li>
         <li><a class="menu" href="rekenpagina1.php">Eenvoudige rekenpagina</a></li>
         <li><a id="status"  class="menu" href="reeksen.php">Reeksen</a></li>
         <li><a class="menu" href="complex.php">Complexe rekenpagina</a></li>
