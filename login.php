@@ -8,15 +8,25 @@ if (isset($_POST['submit'])) {
 
         require("database/database.php");
 
-        $sql = "SELECT * FROM gebruikers WHERE username = '" . $_POST['gebruikersnaam'] . "'AND password = '" . $_POST['wachtwoord'] . "'";
+        $username = trim($_POST['gebruikersnaam']);
+        $password = trim($_POST['wachtwoord']);
 
-        if ($result = $conn->query($sql)) {
-            $rijen = $result->num_rows;
-        } else {
-            $error = "<h3>query failed</h3>";
+        $sql = "SELECT * FROM gebruikers WHERE username = '" . $username . "'";
+
+        function protect($password) {
+            $password = stripslashes($password);
+            $password = htmlspecialchars($password);
+
+            return $password;
         }
 
-        if ($rijen == 1) {
+        if ($result = $conn->query($sql)) {
+            $dbuser = $result->fetch_row();
+            $dbpass = $dbuser[2];
+        }
+
+
+        if (password_verify($password, $dbpass)) {
             session_start();
             $_SESSION['ingelogd'] = true;
             header("Location: homepage.php");
