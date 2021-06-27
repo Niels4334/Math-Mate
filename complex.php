@@ -53,8 +53,9 @@ if ($_SESSION['ingelogd'] != true) {
                 <option value="Factorizer" onclick="displayHide1()" onclick="reload">Factorizer</option>
                 
             </select>
-            <img class="kwadraat" id="helpQm4" onmouseover = "mousOver()" onmouseout = "mousOut()" src="foto's/vraagteken.png" alt="vraagteken">
             <img class="macht" id="helpQm2" onmouseover = "mousOver2()" onmouseout = "mousOut2()" src="foto's/vraagteken.png" alt="vraagteken">
+            <img class="kwadraat" id="helpQm1" onmouseover = "mousOver()" onmouseout = "mousOut()" src="foto's/vraagteken.png" alt="vraagteken">
+            
             
 
             <input id="opGetal1" type="text" name="getal1" placeholder="Vul in">
@@ -65,8 +66,8 @@ if ($_SESSION['ingelogd'] != true) {
             <button id="reset" type="reset" onclick="displayShow()">Reset</button>
         </form>
          
-        <img src="foto's/logo-kwadratenreeks.png" alt="uitleg" id = "uitleg">
-        <img src="foto's/logo-machtreeks.png" alt="uitleg" id = "uitleg1">
+        <img src="foto's/talstelsel.png" alt="uitleg" id = "uitleg">
+        <img src="foto's/factorizer.png" alt="uitleg" id = "uitleg1">
 
         <div id="SomAntwoorden"></div>
         <footer></footer>

@@ -58,8 +58,8 @@ if ($_SESSION['ingelogd'] != true) {
         <button id="reset" type="reset" onclick="displayShow()">Reset</button>
     </form>
 
-    <img src="foto's/logo-kwadratenreeks.png" alt="uitleg" id="uitleg">
-    <img src="foto's/logo-machtreeks.png" alt="uitleg" id="uitleg1">
+    <img src="foto's/reeks info.png" alt="uitleg" id="uitleg">
+    <img src="foto's/reeks info.png" alt="uitleg" id="uitleg1">
 
     <div id="SomAntwoorden"></div>
     <footer></footer>
