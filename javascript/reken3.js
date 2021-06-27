@@ -63,8 +63,6 @@ function Talstelsels() {
     naarToe = document.getElementById("opGetal3").value; 
 
 
-    
-    
 }
 
 function Factorizer() {

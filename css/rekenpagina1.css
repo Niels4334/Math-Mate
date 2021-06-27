@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
+@media screen and (min-width: 1601px) {
+
 body {
     background-color:#1a2238;
 }
@@ -224,6 +226,157 @@ form{
     border-left: 5px solid crimson;
     border-right: 5px solid crimson;
 }
+}
+
+@media screen and (max-width: 1600px) {
+
+    body {
+        background-color: #1a2238;
+    }
+
+    nav {
+        list-style: none;
+        padding-bottom: 3vh;
+        margin-top: 1vh;
+        text-align: center;
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .info-titel{
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+     }
+ 
+     nav a {
+         text-decoration: none;
+         color: white;
+     }
+ 
+     nav li {
+         padding: 10px;
+         padding-bottom: 20px;
+         border-bottom: 5px solid crimson;
+     }
+ 
+     nav li :hover {
+         color: lightsteelblue;
+     }
+
+     #helpQm1, #helpQm2, #helpQm3, #helpQm4{
+        width: 40px;
+        position: absolute;
+        margin-left: -40.5vw;
+        margin-top: 23vh;
+        cursor: pointer;
+    }
+
+    #uitleg, #uitleg1, #uitleg2, #uitleg3 {
+        height: 45vh;
+        position: absolute;
+        margin-top: -40vh;
+        visibility: hidden;
+    }
+    
+
+    #reset{
+        height: 5vh;
+        text-align: center;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 30vh;
+        position: absolute;
+        margin-left: -70vw;
+        width: 30vw;
+        outline: none;
+        background-color: crimson;
+        cursor: pointer;
+    }
+
+    #bereken{
+        height: 5vh;
+        text-align: center;
+        font-size: 20px;
+        color: #ffffff;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 30vh;
+        position: absolute;
+        width: 30vw;
+        margin-left: -30vw;
+        outline: none;
+        background-color: #32de84;
+        cursor: pointer;
+    }
+
+    #SomAntwoorden{
+        width: 100vw;
+        height: 100vh;
+        background-color: #FFF8DC;
+        margin-left: 30;
+        margin-top: 35vh;
+        color: #1a2238;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    #mySelect{
+        height: 4vh;
+        text-align: center;
+        font-size: 20px;
+        color: #1a2238;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 7vh;
+        width: 70vw;
+        margin-left: 15vw;
+        cursor: pointer;
+    }
+
+    #opGetal1{
+        height: 4vh;
+        text-align: center;
+        font-size: 20px;
+        color: #1a2238;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 17vh;
+        position: absolute;
+        margin-left: -34vh;
+        border: 1px solid crimson;
+        width: 30vw;
+        outline: none;
+    }
+
+    #opGetal2{
+        height: 4vh;
+        text-align: center;
+        font-size: 20px;
+        color: #1a2238;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 17vh;
+        position: absolute;
+        margin-left: -15vh;
+        border: 1px solid crimson;
+        width: 30vw;
+        outline: none;
+    }
+
+    h1{
+        text-align: center;
+        color: white;
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+        border-bottom: 3px solid crimson;
+        border-top: 3px solid crimson;
+    }
+
+    form {
+        margin-top: 20vh;
+    }
+
+}
+
 
 
 
