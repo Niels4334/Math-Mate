@@ -64,8 +64,9 @@ if (isset($_POST['submit'])) {
         <img class="icons" id="fb" src="foto's/facebook icon.png" alt="facebook icon">
         <img class="icons" id="ig" src="foto's/instagram icon.png" alt="instagram icon">
         <img class="icons" id="tw" src="foto's/twitter icon.png" alt="twitter icon">
+        <img id="logo" src="foto's/logo.png" alt="logo">
 
-    </div>
+    </div>s
 
     <h1 id="naam"> Math Mate</h1>
 

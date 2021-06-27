@@ -72,12 +72,21 @@
     .icons {
         position: absolute;
     }
+
+    #logo {
+        width: 90px;
+        margin-top: 16.5vh;
+        width: 90px;
+        margin-left: 75vw;
+    }
+
     #ig {
         width: 90px;
         margin-top: 16.5vh;
         width: 90px;
         margin-left: 90vw;
     }
+
     #tw {
         width: 80px;
         margin-top: 17vh;
@@ -105,6 +114,7 @@
     #ig,
     #tw,
     #fb,
+    #logo,
     #naam {
         display: none;
     }

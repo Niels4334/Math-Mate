@@ -41,7 +41,10 @@ if ($_SESSION['ingelogd'] != true) {
     </nav>
   </header>
 
-  <h1>Welkom bij Math mate!</h1>
+       <img id="logo" src="foto's/logo.png" alt="logo">
+        <h1>Welkom bij Math Mate!</h1> <img id="shitter" src="foto's/twitter icon.png" alt="twitter">
+        <img id="fakebook" src="foto's/facebook icon.png" alt="facebook">
+        <img id="gram" src="foto's/instagram icon.png" alt="instagram">
 
   <!-- hier komen de foto's en de uitleg van de calculators -->
   <main class="achtergrond"></main>

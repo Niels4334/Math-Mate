@@ -42,7 +42,11 @@ if ($_SESSION['ingelogd'] != true) {
     </header>
 
     <section class="container">
-        <h1>Math Mate</h1>
+    <img id="logo" src="foto's/logo.png" alt="logo">
+        <h1>Math Mate <img id="shitter" src="foto's/twitter icon.png" alt="twitter">
+        <img id="fakebook" src="foto's/facebook icon.png" alt="facebook">
+        <img id="gram" src="foto's/instagram icon.png" alt="instagram">
+        </h1>
         <form>
             <select id="mySelect">
                 <option id="opTafel" value="Talstelsels" onclick="displayShow()">Talstelsels</option>
