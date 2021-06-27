@@ -65,10 +65,31 @@ if ($_SESSION['ingelogd'] != true) {
     <img id="plaatje-blok1" src="foto's/afb1.jpg" alt="plaatje rekenen">
     </div>
     <div id="blok2">
-    
+    <h3 class = "info-titel">Reeksen</h3>
+    <p class = "info-text">
+    De reeksen pagina bevat een calculator die twee bekende reeksen kan<br> uitrekenen.
+    Je hebt een invoerveld waar je kan bepalen tot hoever de<br> calculator de 
+    reeksen laat zien. De calculator bevat de volgende reeksen:
+    </p><br><br>
+    <ul id = "functies-calc">
+    <li>De Fibonacci reeks</li>
+    <li>De Priemgetallen reeks</li>
+    </ul>
+    <img id="plaatje-blok2" src="foto's/Primes.webp" alt="plaatje rekenen">
     </div>
     <div id="blok3">
-    
+    <h3 class = "info-titel">Complexe berekeningen</h3>
+    <p class = "info-text">
+    De complexe rekenpagina is bedoeld voor de meer ingewikkelde berekeningen.<br>
+    De berekeningen op deze pagina zijn talstelsels die vanaf Binair tot<br>
+    Hexadecimaal kunnen worden omgerekend. De omrekenmethodes zijn:
+
+    </p><br><br>
+    <ul id = "functies-calc">
+    <li>Binair tot Hexadecimaal</li>
+    <li>Factorizer</li>
+    </ul>
+    <img id="plaatje-blok3" src="foto's/talstelsels.png" alt="plaatje rekenen">
     </div>
   </section>
 

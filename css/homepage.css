@@ -92,13 +92,15 @@ nav {
 }
 
 #blok2 {
-    margin-top: 52vh;
+    margin-top: 55vh;
     position: absolute;
+    background-color: #1a2238;
 }
 
 #blok3 {
-    margin-top: 102vh;
+    margin-top: 95vh;
     position: absolute;
+    background-color: #1a2238;
 }
 
 .container {
@@ -200,6 +202,20 @@ h1 {
     position: absolute;
     margin-left: 28vw;
     margin-top: 15vh;
+}
+
+#plaatje-blok2 {
+    width: 30vw;
+    float: right;
+    margin-top: -30vh;
+    border-radius: 3px;
+}
+
+#plaatje-blok3 {
+    width: 30vw;
+    float: right;
+    margin-top: -20vh;
+    border-radius: 3px;
 }
 
 }
