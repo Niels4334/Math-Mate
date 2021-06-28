@@ -62,13 +62,13 @@ function Talstelsels() {
     GetalInvoer = document.getElementById("opGetal2").value;
     naarToe = document.getElementById("opGetal3").value; 
 
+    
 
+    
 }
 
 function Factorizer() {
     GetalInvoer = document.getElementById("opGetal1").value;
-
-
 }
 
 

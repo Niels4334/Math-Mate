@@ -232,6 +232,19 @@ h1 {
         color: white;
     }
 
+    #blok2{
+        width: 90vw;
+        margin-left: 5vw;
+        color: white;
+    }
+
+    #blok3{
+        width: 90vw;
+        margin-left: 5vw;
+        color: white;
+    }
+
+
     li{
         margin-left: 5vw;
         
@@ -247,6 +260,22 @@ h1 {
     }
 
     #plaatje-blok1 {
+        width: 300px;
+        border-radius: 15px;
+        margin-top: 5vh;
+        margin-left: 3vw;
+        margin-bottom: 5vh;
+    }
+
+    #plaatje-blok2 {
+        width: 300px;
+        border-radius: 15px;
+        margin-top: 5vh;
+        margin-left: 3vw;
+        margin-bottom: 5vh;
+    }
+
+    #plaatje-blok3 {
         width: 300px;
         border-radius: 15px;
         margin-top: 5vh;
@@ -283,6 +312,8 @@ h1 {
     nav li :hover {
         color: lightsteelblue;
     }
+
+
 
 
 
