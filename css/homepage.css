@@ -313,7 +313,13 @@ h1 {
         color: lightsteelblue;
     }
 
+    #uitloggen {
+        color: red;
+    }
 
+    #uitloggen :hover {
+        color: crimson;
+    }
 
 
 
